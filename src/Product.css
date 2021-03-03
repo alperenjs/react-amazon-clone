@@ -39,3 +39,10 @@
 .product__rating {
   display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+  .product {
+    max-width: 260px;
+    margin: 0 auto !important;
+  }
+}

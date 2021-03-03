@@ -30,3 +30,13 @@
   font-size: 17px;
   font-weight: 800;
 }
+
+@media only screen and (max-width: 730px) {
+  .checkout {
+    display: block;
+    font-size: 14px;
+  }
+  .checkoutProduct__title {
+    font-size: 14px;
+  }
+}
